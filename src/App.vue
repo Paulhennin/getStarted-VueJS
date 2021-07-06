@@ -162,4 +162,22 @@ h4 {
   list-style-type: "\1F44D";
   padding-left: 1rem;
 }
+@media (max-width: 960px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .card {
+    width:100%;
+  }
+  .connect {
+    text-align: center;
+    flex-direction: column;
+  }
+  .cards-title {
+    font-size: 1.7rem;
+  }
+  .flash {
+    right: 15px;
+  }
+}
 </style>
