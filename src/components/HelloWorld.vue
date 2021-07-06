@@ -1,6 +1,7 @@
 <template>
-  <div class="app">
+  <div class="title">
     <h1>{{ msg }}</h1>
+    <hr>
   </div>
 </template>
 
@@ -28,5 +29,20 @@ li {
 }
 a {
   color: #42b983;
+}
+.title {
+  text-align: center;
+  width: 70%;
+}
+hr {
+  background-color: #94675A;
+	margin: 40px 0 80px;
+	padding: 0;
+	border: 0;
+	font-family: arial;
+  text-align: center;
+  height: 3px;
+  border-radius: 20px;
+  box-shadow:10px 10px 15px #94675A;
 }
 </style>
